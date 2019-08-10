@@ -72,7 +72,7 @@ abstract class AbstractBuilder
      *                                              - N = No
      * @param string $cut Cut on error label
      *                                              - Y = Yes
-     *                                              - N = No
+     *                                              - N = No / YES
      */
     abstract public function setQuantity(int $quantity,int $pauseQty = 0, int $replicate = 0, string $invert = 'N', string $cut = 'N') : void;
 
